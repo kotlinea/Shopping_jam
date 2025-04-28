@@ -10,7 +10,22 @@ import SwiftData
 
 struct ContentView: View {
     var body: some View {
-        Text("dummy")
+        TabView {
+            MapView()
+                .tabItem {
+                    Label("Map", systemImage: "map")
+                }
+            
+            ListView()
+                .tabItem {
+                    Label("List", systemImage: "list.bullet")
+                }
+            
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
+        }
     }
 }
 

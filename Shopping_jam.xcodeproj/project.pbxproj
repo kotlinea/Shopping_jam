@@ -29,9 +29,22 @@
 		6D00A6942DBF1B5500CAED6B /* Shopping_jamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shopping_jamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6D00A6AE2DBF22F900CAED6B /* Exceptions for "Shopping_jam" folder in "Shopping_jam" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SettingsView.swift,
+			);
+			target = 6D00A6762DBF1B5300CAED6B /* Shopping_jam */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6D00A6792DBF1B5300CAED6B /* Shopping_jam */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6D00A6AE2DBF22F900CAED6B /* Exceptions for "Shopping_jam" folder in "Shopping_jam" target */,
+			);
 			path = Shopping_jam;
 			sourceTree = "<group>";
 		};
